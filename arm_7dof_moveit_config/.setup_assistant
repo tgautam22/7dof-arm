@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: arm_7dof
+    relative_path: urdf/arm_7dof.urdf
+  srdf:
+    relative_path: config/arm_7dof.srdf
+  package_settings:
+    author_name: Tejas
+    author_email: tejas.gautam825@gmail.com
+    generated_timestamp: 1793072584
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
