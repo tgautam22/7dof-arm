@@ -6,8 +6,8 @@ from launch_ros.actions import Node
 
 
 def generate_launch_description():
-    pkg_share = get_package_share_directory('arm_7dof_urdf')
-    urdf_path = os.path.join(pkg_share, 'urdf', 'arm_7dof_urdf.urdf')
+    pkg_share = get_package_share_directory('arm_7dof')
+    urdf_path = os.path.join(pkg_share, 'urdf', 'arm_7dof.urdf')
     rviz_config_path = os.path.join(pkg_share, 'rviz', 'display.rviz')
 
     with open(urdf_path, 'r') as f:

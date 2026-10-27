@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>arm_7dof_urdf</name>
+  <name>arm_7dof</name>
   <version>1.0.0</version>
   <description>
-    URDF Description package for arm_7dof_urdf.
+    URDF Description package for arm_7dof.
     This package contains configuration data, 3D models and launch files
-    for arm_7dof_urdf robot
+    for arm_7dof robot
   </description>
   <maintainer email="TODO@email.com">TODO</maintainer>
   <license>BSD</license>
