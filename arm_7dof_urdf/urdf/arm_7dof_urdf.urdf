@@ -3,7 +3,7 @@
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
-  name="7dof-arm-urdf">
+  name="arm_7dof_urdf">
   <link
     name="base">
     <inertial>
@@ -26,7 +26,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/base.STL" />
+          filename="package://arm_7dof_urdf/meshes/base.STL" />
       </geometry>
       <material
         name="">
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/base.STL" />
+          filename="package://arm_7dof_urdf/meshes/base.STL" />
       </geometry>
     </collision>
   </link>
@@ -66,7 +66,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_1.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_1.STL" />
       </geometry>
       <material
         name="">
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_1.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -97,10 +97,10 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-3.14159"
+      upper="3.14159"
+      effort="10"
+      velocity="1.0" />
   </joint>
   <link
     name="link_2">
@@ -124,7 +124,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_2.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_2.STL" />
       </geometry>
       <material
         name="">
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_2.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -155,10 +155,10 @@
     <axis
       xyz="0 1 0" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-3.14159"
+      upper="3.14159"
+      effort="10"
+      velocity="1.0" />
   </joint>
   <link
     name="link_3">
@@ -182,7 +182,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_3.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_3.STL" />
       </geometry>
       <material
         name="">
@@ -196,7 +196,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_3.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_3.STL" />
       </geometry>
     </collision>
   </link>
@@ -213,10 +213,10 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-3.14159"
+      upper="3.14159"
+      effort="10"
+      velocity="1.0" />
   </joint>
   <link
     name="link_4">
@@ -240,7 +240,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_4.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_4.STL" />
       </geometry>
       <material
         name="">
@@ -254,7 +254,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_4.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_4.STL" />
       </geometry>
     </collision>
   </link>
@@ -271,10 +271,10 @@
     <axis
       xyz="0 1 0" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-3.14159"
+      upper="3.14159"
+      effort="10"
+      velocity="1.0" />
   </joint>
   <link
     name="link_5">
@@ -298,7 +298,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_5.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_5.STL" />
       </geometry>
       <material
         name="">
@@ -312,7 +312,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_5.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_5.STL" />
       </geometry>
     </collision>
   </link>
@@ -329,10 +329,10 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-3.14159"
+      upper="3.14159"
+      effort="10"
+      velocity="1.0" />
   </joint>
   <link
     name="link_6">
@@ -356,7 +356,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_6.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_6.STL" />
       </geometry>
       <material
         name="">
@@ -370,7 +370,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_6.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_6.STL" />
       </geometry>
     </collision>
   </link>
@@ -387,10 +387,10 @@
     <axis
       xyz="0 1 0" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-3.14159"
+      upper="3.14159"
+      effort="10"
+      velocity="1.0" />
   </joint>
   <link
     name="link_7">
@@ -414,7 +414,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_7.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_7.STL" />
       </geometry>
       <material
         name="">
@@ -428,7 +428,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://7dof-arm-urdf/meshes/link_7.STL" />
+          filename="package://arm_7dof_urdf/meshes/link_7.STL" />
       </geometry>
     </collision>
   </link>
@@ -445,9 +445,9 @@
     <axis
       xyz="0 0 -1" />
     <limit
-      lower="0"
-      upper="0"
-      effort="0"
-      velocity="0" />
+      lower="-3.14159"
+      upper="3.14159"
+      effort="10"
+      velocity="1.0" />
   </joint>
 </robot>
